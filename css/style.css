@@ -1,0 +1,196 @@
+
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+#mirror{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.separador{
+    background-color: transparent;
+    width: 100%;
+    height: 50px;
+}
+
+hr.separator {
+    background-color: transparent;
+    border-color: transparent;
+    width: 100%;
+    border-top: 1px solid rgb(20, 20, 20);
+    z-index: 2;
+}
+
+#upperDiv {
+    width: 100%;
+    height: 400px;
+    background-color: #5e5e5e;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectContainer-left {
+    width: 100%;
+    height: 360px;
+    background-color:transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:left;
+    align-items: center;
+    position: relative;
+    margin-left: 5%;
+}
+
+.projectContainer-right {
+    width: 100%;
+    height: 360px;
+    background-color:transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:right;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.media {
+    width: 60%;
+    float:unset;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-container {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+
+    
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(145, 145, 145, 0.5);
+    border-radius: 15px;
+}
+
+#sites{
+    background-color: transparent;
+}
+
+/*
+#sites::before{
+    content:'';
+    width: 100%;
+    height: 360px;
+    z-index:-1;
+    position: absolute;
+    background-image: url(/recources/media/site_pomerode.jpg);
+    filter: blur(12px);
+    backdrop-filter: blur(12px);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+*/
+
+#aplicativos{
+    background-color:transparent;
+}
+
+/*
+#aplicativos::before{
+    content:'';
+    width: 100%;
+    height: 360px;
+    z-index:-1;
+    position: absolute;
+    background-image: url(/recources/media/print_melhor_preco.png);
+    filter: blur(12px);
+    backdrop-filter: blur(12px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -420px;  
+}
+*/
+
+#jogos{
+    background-color:transparent
+}
+
+
+/*
+#jogos::before{
+    content:'';
+    z-index:-1;
+    position: absolute;
+    width: 100%;
+    height: 360px;
+    background-image: url(/recources/media/futebol_de_botoes_game.png);
+    filter: blur(12px);
+    backdrop-filter: blur(12px);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position-y: -380px;
+}
+*/
+
+#sistemas{
+    background-color: transparent;
+}
+
+/*
+#sistemas::before{
+    content:'';
+    z-index:-1;
+    position: absolute;
+    width: 100%;
+    height: 360px;
+    background-image: url(/recources/media/sistema_de_arquivos.png);
+    filter: blur(12px);
+    backdrop-filter: blur(12px);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position-y: -200px;
+}
+*/
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  color: gray;
+}
+
+img.presentation {
+    filter:drop-shadow(20px 20px 10px rgba(0, 0, 0, 0.3));
+}
