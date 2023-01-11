@@ -21,3 +21,19 @@ div.contact_info{
     align-items: center;
     justify-items: center;
 }
+
+.contact_container button.clicable img{
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    transition: 0.2s linear;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+}
+
+.contact_container button.clicable img:hover{
+    filter: drop-shadow(0px 0px 5px rgb(124, 124, 124));
+    transform: scale(1.05);
+}
