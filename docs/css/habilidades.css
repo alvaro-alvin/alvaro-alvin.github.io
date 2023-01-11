@@ -2,15 +2,21 @@
 .hability_container {
     display: flex;
     height: 100px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.50);
+    margin: 10px
 }
 
 .lang_icon {
     width: 20%;
     height: 100px;
+    display: flex;
+    align-items: center;
 }
 
 .labels {
     width: 100%;
+    height: fit-content;
     display: inline-flex;
     justify-content:space-between;
 }
@@ -19,7 +25,9 @@
     margin: 0%;
     width: 70%;
     height: 100px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
   }
   
   .container .progress {
@@ -29,7 +37,7 @@
   
   .progress {
     padding: 4px;
-    background: rgba(255, 255, 255, 0.75);
+    background: rgba(120, 120, 120, 1);
     border-radius: 6px;
    
   }
@@ -52,10 +60,24 @@
   
   .label {
     display: inline-block;
-    margin: 0 5px 20px;
+    margin: 0 5px 0px;
     padding: 3px 8px;
-    color: black;
+    color: white;
     border-radius: 3px;
-    background: rgba(255, 255, 255, 0.50);
+    background: rgba(120, 120, 120, 255);
     cursor: pointer;
+    -webkit-transition: 0.5s linear;
+    -moz-transition: 0.5s linear;
+    -o-transition: 0.5s linear;
+    transition: 0.5s linear;
+    -webkit-transition-property: font-size;
+    -moz-transition-property: font-size;
+    -o-transition-property: font-size;
+    transition-property: font-size;
+  }
+
+  @media screen and (max-width: 410px) {
+    .label {
+      font-size: small;
+    }
   }

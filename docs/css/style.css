@@ -48,7 +48,8 @@ hr.separator {
     justify-content:center;
     align-items: center;
     position: relative;
-    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .projectContainer-right {
@@ -60,11 +61,18 @@ hr.separator {
     flex-wrap: wrap;
     justify-content:center;
     align-items: center;
-    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+.margin {
+    height: 100%;
+    width: 2.5%;
 }
 
 .media {
-    width: 60%;
+    width: 62.5%;
     height: fit-content;
     display: inline-flex;
     flex-direction: row;
@@ -74,7 +82,7 @@ hr.separator {
 }
 
 .description {
-    width: 40%;
+    width: 30%;
     height: 80%;
     display: flex;
     flex-direction: row;
@@ -196,10 +204,9 @@ img.presentation#horizontal {
     display: block;  
     height: auto;
     width: auto;
-    min-width: 280px;
+    min-width: 256px;
     max-width: 512px;
     max-height: 288px;
-    
 }
 
 img.presentation#vertical {
@@ -207,13 +214,38 @@ img.presentation#vertical {
     display: block;  
 }
 
-@media (max-width: 725px) {
+.sub_titulo_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.sub_titulo {
+    font-size: xx-large;
+    color: white;
+}
+
+.background {
+    filter:drop-shadow(20px 20px 10px rgba(0, 0, 0, 0.3));
+    background-color:#5e5e5e; 
+    height:fit-content;
+    display: block;
+    justify-items: center;
+    
+}
+
+@media (max-width: 810px) {
     .media {
       width: 100%;
       margin-top: 20px;
       display: inline-flex;
       justify-content:space-between;
     }
+    .description {
+        width: 90%;
+        margin-top: 20px;
+        display: inline-flex;
+        justify-content:space-between;
+      }
     .projectContainer-right{
         margin: 0%;
     }
@@ -225,5 +257,8 @@ img.presentation#vertical {
     }
     body{
         margin: 0px;
+    }
+    .margin {
+        width: 0px;
     }
   }
