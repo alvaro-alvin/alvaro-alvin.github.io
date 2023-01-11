@@ -228,9 +228,11 @@ img.presentation#vertical {
     filter:drop-shadow(20px 20px 10px rgba(0, 0, 0, 0.3));
     background-color:#5e5e5e; 
     height:fit-content;
-    display: block;
+    flex-direction: column;
+    display: flex;
     justify-items: center;
-    
+    align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 810px) {
@@ -260,5 +262,5 @@ img.presentation#vertical {
     }
     .margin {
         width: 0px;
-    }
+    }  
   }
