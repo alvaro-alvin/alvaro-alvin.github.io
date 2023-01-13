@@ -16,7 +16,7 @@ function getJsonData() {
     var data = []
 
     // sites
-    data = '[ { "titulo": "Site de Pomerode", "tecnologias": "HTML, CSS e JavaScript", "descricao": "Website estático que mostra as atrações, historia e curiosidades sobre a cidade de pomerode. Utiliza bibliotecas externas e animações controladas por CSS e JavaScript. Desenvolvido em 2020 para a disciplina de Desenvolvimento Web I.", "midia": "recources/media/site_pomerode.jpg" }, { "titulo": "Titulo do aplicativo", "tecnologias": "listagem das tecnologias utilizadas", "descricao": "bla bla bla bla bla", "midia": "link para a midia" }, { "titulo": "Titulo do jogo", "tecnologias": "listagem das tecnologias utilizadas", "descricao": "bla bla bla bla bla", "midia": "link para a midia" }, { "titulo": "Titulo do sistema", "tecnologias": "listagem das tecnologias utilizadas", "descricao": "bla bla bla bla bla", "midia": "link para a midia" } ] '
+    data = '[ { "titulo": "Site de Pomerode", "tecnologias": "HTML, CSS e JavaScript", "descricao": "Website estático que mostra as atrações, historia e curiosidades sobre a cidade de pomerode. Utiliza bibliotecas externas e animações controladas por CSS e JavaScript. Desenvolvido em 2020 para a disciplina de Desenvolvimento Web I.", "midia": "recources/media/site_pomerode.jpg", "link": "https://all-powerful-outlin.000webhostapp.com/" }, { "titulo": "Titulo do aplicativo", "tecnologias": "listagem das tecnologias utilizadas", "descricao": "bla bla bla bla bla", "midia": "link para a midia", "link": "" }, { "titulo": "Titulo do jogo", "tecnologias": "listagem das tecnologias utilizadas", "descricao": "bla bla bla bla bla", "midia": "link para a midia", "link": "" }, { "titulo": "Titulo do sistema", "tecnologias": "listagem das tecnologias utilizadas", "descricao": "bla bla bla bla bla", "midia": "link para a midia", "link": "" } ] '
     aux = JSON.parse(data);
 
     for (var i in aux)
@@ -25,7 +25,7 @@ function getJsonData() {
     console.log('sites carregados!')
 
     // aplicativos
-    data = '[ { "titulo": "Aplicativo Melhor Preço", "plataforma": "IOS", "tecnologias": "Swift e UIKit", "descricao": "Aplicativo de gerenciamento de lista de compras e de economia nas compras do dia a dia. A interface do aplicativo é contrida com UIKit e seus elementos funcionais em parte utilizam o CoreData. O aplicativo foi desenvolvido em 2022 durante o curso Novos Negócios em TIC realizado pelo IFCE.", "midia": "recources/media/print_melhor_preco.png" }, { "titulo": "Titulo do aplicativo", "plataforma": "Android ou IOS", "tecnologias": "listagem das tecnologias utilizadas", "descricao": "bla bla bla bla bla", "midia": "link para a midia" }, { "titulo": "Titulo do jogo", "plataforma": "Android ou IOS", "tecnologias": "listagem das tecnologias utilizadas", "descricao": "bla bla bla bla bla", "midia": "link para a midia" }, { "titulo": "Titulo do sistema", "plataforma": "Android ou IOS", "tecnologias": "listagem das tecnologias utilizadas", "descricao": "bla bla bla bla bla", "midia": "link para a midia" } ]'
+    data = '[ { "titulo": "Aplicativo Melhor Preço", "plataforma": "IOS", "tecnologias": "Swift e UIKit", "descricao": "Aplicativo de gerenciamento de lista de compras e de economia nas compras do dia a dia. A interface do aplicativo é contrida com UIKit e seus elementos funcionais em parte utilizam o CoreData. O aplicativo foi desenvolvido em 2022 durante o curso Novos Negócios em TIC realizado pelo IFCE.", "midia": "recources/media/print_melhor_preco.png", "link": "https://github.com/alvaro-alvin/App-Melhor-Preco" }, { "titulo": "Titulo do aplicativo", "plataforma": "Android ou IOS", "tecnologias": "listagem das tecnologias utilizadas", "descricao": "bla bla bla bla bla", "midia": "link para a midia", "link": "" }, { "titulo": "Titulo do jogo", "plataforma": "Android ou IOS", "tecnologias": "listagem das tecnologias utilizadas", "descricao": "bla bla bla bla bla", "midia": "link para a midia", "link": "" }, { "titulo": "Titulo do sistema", "plataforma": "Android ou IOS", "tecnologias": "listagem das tecnologias utilizadas", "descricao": "bla bla bla bla bla", "midia": "link para a midia", "link": "" } ]'
     aux = JSON.parse(data);
 
     for (var i in aux)
@@ -34,7 +34,7 @@ function getJsonData() {
     console.log('aplicativos carregados!')
 
     // jogos
-    data = '[ { "titulo": "Futebol de Botões", "plataforma": "Windows, Linux e Web", "tecnologias": "C++ e SDL2", "descricao": "Jogo simples no estilo de futebol de botões escrito do zero em C++ utilizando a biblioteca gráfica SDL2. Possúi um sistema físico e gráfico simples. Foi desenvolvido em 2020 como projeto para a disciplina de Programação Orientada a Objetos I.", "midia": "recources/media/futebol_de_botoes_game.png" }, { "titulo": "Titulo do aplicativo", "plataforma": "Android ou IOS", "tecnologias": "listagem das tecnologias utilizadas", "descricao": "bla bla bla bla bla", "midia": "link para a midia" }, { "titulo": "Titulo do jogo", "plataforma": "Android ou IOS", "tecnologias": "listagem das tecnologias utilizadas", "descricao": "bla bla bla bla bla", "midia": "link para a midia" }, { "titulo": "Titulo do sistema", "plataforma": "Android ou IOS", "tecnologias": "listagem das tecnologias utilizadas", "descricao": "bla bla bla bla bla", "midia": "link para a midia" } ]'
+    data = '[ { "titulo": "Futebol de Botões", "plataforma": "Windows, Linux e Web", "tecnologias": "C++ e SDL2", "descricao": "Jogo simples no estilo de futebol de botões escrito do zero em C++ utilizando a biblioteca gráfica SDL2. Possúi um sistema físico e gráfico simples. Foi desenvolvido em 2020 como projeto para a disciplina de Programação Orientada a Objetos I.", "midia": "recources/media/futebol_de_botoes_game.png", "link": "alvaroalvin-dev.ga/futebol_de_botoes/play.html" }, { "titulo": "Titulo do aplicativo", "plataforma": "Android ou IOS", "tecnologias": "listagem das tecnologias utilizadas", "descricao": "bla bla bla bla bla", "midia": "link para a midia", "link": "" }, { "titulo": "Titulo do jogo", "plataforma": "Android ou IOS", "tecnologias": "listagem das tecnologias utilizadas", "descricao": "bla bla bla bla bla", "midia": "link para a midia", "link": "" }, { "titulo": "Titulo do sistema", "plataforma": "Android ou IOS", "tecnologias": "listagem das tecnologias utilizadas", "descricao": "bla bla bla bla bla", "midia": "link para a midia", "link": "" } ]'
     aux = JSON.parse(data);
 
 
@@ -44,7 +44,7 @@ function getJsonData() {
     console.log('jogos carregados!')
 
     // sistemas
-    data = '[ { "titulo": "Sistema de arquivos", "plataforma": "Window e Linux", "tecnologias": "C", "descricao": "Um sistema de arquivos escrito em C que da suporte a operações basica com documentos e diretórios. Escrito em C. Desenvolvido em 2022 para a dsiciplina de Sistemas Operacionais", "midia": "recources/media/sistema_de_arquivos.png" }, { "titulo": "Titulo do aplicativo", "plataforma": "Android ou IOS", "tecnologias": "listagem das tecnologias utilizadas", "descricao": "bla bla bla bla bla", "midia": "link para a midia" }, { "titulo": "Titulo do jogo", "plataforma": "Android ou IOS", "tecnologias": "listagem das tecnologias utilizadas", "descricao": "bla bla bla bla bla", "midia": "link para a midia" }, { "titulo": "Titulo do sistema", "plataforma": "Android ou IOS", "tecnologias": "listagem das tecnologias utilizadas", "descricao": "bla bla bla bla bla", "midia": "link para a midia" } ]'
+    data = '[ { "titulo": "Sistema de arquivos", "plataforma": "Window e Linux", "tecnologias": "C", "descricao": "Um sistema de arquivos escrito em C que da suporte a operações basica com documentos e diretórios. Escrito em C. Desenvolvido em 2022 para a dsiciplina de Sistemas Operacionais", "midia": "recources/media/sistema_de_arquivos.png", "link": "https://gitlab.com/alvaro.alvinn/so-sistema-de-arquivos" }, { "titulo": "Titulo do aplicativo", "plataforma": "Android ou IOS", "tecnologias": "listagem das tecnologias utilizadas", "descricao": "bla bla bla bla bla", "midia": "link para a midia", "link": "" }, { "titulo": "Titulo do jogo", "plataforma": "Android ou IOS", "tecnologias": "listagem das tecnologias utilizadas", "descricao": "bla bla bla bla bla", "midia": "link para a midia", "link": "" }, { "titulo": "Titulo do sistema", "plataforma": "Android ou IOS", "tecnologias": "listagem das tecnologias utilizadas", "descricao": "bla bla bla bla bla", "midia": "link para a midia", "link": "" } ]'
     aux = JSON.parse(data);
 
     for (var i in aux)
@@ -85,7 +85,9 @@ function load_data(tipo, id){
     }
     console.log(object)
 
-    description.querySelector('.titulo').innerHTML = object.titulo
+    const title_div = description.querySelector('.title_container')
+    title_div.querySelector('.titulo').innerHTML = object.titulo
+    title_div.querySelector('.clicable').onclick = function(){window.open( object.link , '_blank')}
     description.querySelector('.tecnologias').innerHTML = object.tecnologias
     description.querySelector('.descricao').innerHTML = object.descricao
 

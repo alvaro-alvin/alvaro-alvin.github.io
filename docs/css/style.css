@@ -108,6 +108,49 @@ hr.separator {
     align-items: flex-start;
     background-color: rgba(145, 145, 145, 0.5);
     border-radius: 15px;
+
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+}
+
+.title_container{
+    width: 100%;
+    display: inline-flex;
+    justify-content:space-between;
+
+}
+
+.title_container button.clicable{
+    color: black;
+    font-weight: bold;
+    width: fit-content;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    transition: 0.2s linear;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+}
+
+.title_container button.clicable:hover{
+    filter: drop-shadow(0px 0px 5px rgb(124, 124, 124));
+    transform: scale(1.05);
 }
 
 #sites{
